@@ -9,7 +9,7 @@ import jakarta.persistence.Id
 data class Produit(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    val id : Long=0,
+    val id : Int=0,
     val nomP : String,
     val description : String,
     var prix : Double,
